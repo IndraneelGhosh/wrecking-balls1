@@ -1,10 +1,10 @@
-class string{
+class String{
     constructor(bodyA, pointB){
         var options = {
             bodyA: bodyA,
             pointB: pointB,
             stiffness: 0.04,
-            length: 10
+            length: 15
         }
         
         this.pointB = pointB;
@@ -13,11 +13,11 @@ class string{
     }
 
     attach(body) {
-        this.rope.bodyA = body;
+        this.string.bodyA = body;
       }
     
       fly() {
-        this.rope.bodyA = null;
+        this.string.bodyA = null;
       }
     
     display(){

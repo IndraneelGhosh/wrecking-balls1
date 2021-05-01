@@ -34,7 +34,7 @@ box14=new box(1000,100,70,70);
 box15=new box(1000,100,70,70);
 box16=new box(1000,100,70,70);
 ball1=new ball(200,200,80,80)
-string1=new string(ball.body,{x:200,y:50})
+string1=new String(ball1.body,{x:200,y:50})
 }
 
 
